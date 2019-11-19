@@ -17,7 +17,7 @@
     "test": "cross-env BABEL_ENV=commonjs jest",
     "coverage": "yarn test --coverage"
   },
-  "repository": "https://github.com/robinweser/elodin.git",
+  "repository": "https://github.com/robinweser/small-color.git",
   "author": "robinweser <contact@weser.io>",
   "license": "MIT",
   "devDependencies": {
