@@ -1,6 +1,5 @@
+import assignImmutable from './utils/assignImmutable'
+
 export default function lighten(color, value) {
-  return {
-    ...color,
-    l: Math.min(1, color.l + color.l * value),
-  }
+  return assignImmutable(color, { l: Math.min(1, color.l + color.l * value) })
 }

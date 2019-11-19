@@ -1,6 +1,5 @@
-export default function fade(color, value) {
-  return {
-    ...color,
-    a: Math.min(1, color.a + color.a * value),
-  }
+import assignImmutable from './utils/assignImmutable'
+
+export default function opaquer(color, value) {
+  return assignImmutable(color, { a: Math.min(1, color.a + color.a * value) })
 }

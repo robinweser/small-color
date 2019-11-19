@@ -1,7 +1,7 @@
 import hslToRgb from './utils/hslToRgb'
 
-export default function toRgb({ h, s, l, a }) {
-  const [r, g, b] = hslToRgb(h, s, l)
+export default function toRgb(color) {
+  const rgb = hslToRgb(color.h, color.s, color.l)
 
-  return 'rgba(' + [r, g, b, a].join(',') + ')'
+  return 'rgba(' + [rgb[0], rgb[1], rgb[2], color.a].join(',') + ')'
 }
