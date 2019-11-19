@@ -1,6 +1,6 @@
 # small-color
 
-A tiny (1.5kb), opinionated & tree-shakable alternative to [color](https://github.com/Qix-/color).<br>
+A tiny (0.8kb), opinionated & tree-shakable alternative to [color](https://github.com/Qix-/color).<br>
 It is very opinionated and optimized for runtime usage in the browser.<br>
 It only supports a subset of color and does **not** have input validation.
 
