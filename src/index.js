@@ -1,5 +1,5 @@
 import darken from './darken'
-import desature from './desature'
+import desaturate from './desaturate'
 import fade from './fade'
 import grayscale from './grayscale'
 import lighten from './lighten'
