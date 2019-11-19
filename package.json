@@ -1,7 +1,7 @@
 {
   "name": "small-color",
-  "description": "A tiny (0.5kb), opinionated & tree-shakable alternative to color",
-  "version": "1.0.2",
+  "description": "A tiny (1.5kb), opinionated & tree-shakable alternative to color",
+  "version": "1.0.3",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [

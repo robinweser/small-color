@@ -1,6 +1,6 @@
 # small-color
 
-A tiny (0.5kb), opinionated & tree-shakable alternative to [color](https://github.com/Qix-/color).<br>
+A tiny (1.5kb), opinionated & tree-shakable alternative to [color](https://github.com/Qix-/color).<br>
 It is very opinionated and optimized for runtime usage in the browser.<br>
 It only supports a subset of color and does **not** have input validation.
 
@@ -34,7 +34,8 @@ const saturated = desaturate(lightened, 0.3)
 const faded = fade(saturated, 0.5)
 
 const output = toRgb(faded)
-// => rgba(236,147,182,0.5)
+
+console.log(output) // => rgba(236,147,182,0.5)
 ```
 
 ## License
