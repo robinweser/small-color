@@ -18,6 +18,7 @@ yarn add small-color
 2. It currently only supports rgb(a) and hsl(a) color values
 3. It does not optimize output values (e.g. round decimals to X digits)
 4. It does not validate input values
+5. It always returns `hsla` or `rgba` (even if alpha=1)
 
 ## Usage
 
@@ -37,6 +38,19 @@ const output = toRgb(faded)
 
 console.log(output) // => rgba(236,147,182,0.5)
 ```
+
+## API
+
+- parse(string): color
+- lighten(color, float): color
+- darken(color, float): color
+- saturate(color, float): color
+- desaturate(color, float): color
+- fade(color, float): color
+- opaquer(color, float): color
+- grayscale(color): color
+- toRgb(color): string
+- toHsl(color): string
 
 ## License
 
